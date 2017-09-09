@@ -4,13 +4,13 @@ Linebot (AWS API Gateway + Lambda)
 Please get LINE developers account and AWS account.<br>
 It is necessaly that AWS API Gateway and Lambda.<br>
 
-**Lambda setting:**
+**Lambda setting:**<br>
  runtime : python3.6<br>
  handler : main.callback<br>
  environment variable: <br>
-   CHANNEL_SECRET<br>
-   CHANNEL_ACCESS_TOKEN<br>
-   ※Check for the LINE developers site. <br>
+ 　　　CHANNEL_SECRET<br>
+ 　　　CHANNEL_ACCESS_TOKEN<br>
+ 　　　※Check for the LINE developers site. <br>
 
 This program use the LINE SDK of Python.<br>
 This is already installed by pip those.<br>
